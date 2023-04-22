@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "BRHendrix";
+  src: url("fonts/BRHendrix-Regular.eot");
+  src: url("fonts/BRHendrix-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/BRHendrix-Regular.woff2") format("woff2"),
+    url("fonts/BRHendrix-Regular.woff") format("woff"),
+    url("fonts/BRHendrix-Regular.ttf") format("truetype"),
+    url("fonts/BRHendrix-Regular.svg#BRHendrix-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BRHendrix";
+  src: url("fonts/BRHendrix-SemiBold.eot");
+  src: url("fonts/BRHendrix-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/BRHendrix-SemiBold.woff2") format("woff2"),
+    url("fonts/BRHendrix-SemiBold.woff") format("woff"),
+    url("fonts/BRHendrix-SemiBold.ttf") format("truetype"),
+    url("fonts/BRHendrix-SemiBold.svg#BRHendrix-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  html {
+    font-family: BRHendrix, system-ui, sans-serif;
+  }
+}

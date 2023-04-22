@@ -1,0 +1,13 @@
+# logs
+*.log
+
+# compiled output
+/dist
+/node_modules
+/target/
+
+# OS X temporary files
+.DS_Store
+
+# temporary folder
+/tmp/

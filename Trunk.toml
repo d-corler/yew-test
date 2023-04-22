@@ -1,0 +1,22 @@
+[build]
+# The index HTML file to drive the bundling process.
+target = "index.html"
+# Build in release mode.
+release = false
+# The output dir for all final assets.
+dist = "dist"
+# The public URL from which assets are to be served.
+public_url = "/"
+# Whether to include hash values in the output file names.
+filehash = true
+
+[watch]
+# Paths to watch. The `build.target`'s parent folder is watched by default.
+watch = ["src"]
+
+[[hooks]]
+# It will execute the tailwind build process right at the start of the build 
+# process (even before the HTML file is read). By default, the command is
+# spawned directly and no shell is used.
+stage = "pre_build"
+command = "scripts/tailwindcss-build.sh"
